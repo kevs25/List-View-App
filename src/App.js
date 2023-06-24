@@ -25,6 +25,7 @@ function App() {
   return (
     <>
       <div className='search-container'>
+        <h1>Search Hint</h1>
         <input value={inputValue} onChange={e => setInputValue(e.target.value)} type="search" placeholder='search'/>
       </div>
       <div>
